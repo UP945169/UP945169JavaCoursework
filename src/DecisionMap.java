@@ -12,7 +12,7 @@ public class DecisionMap {
 
     public DecisionMap() throws FileNotFoundException {
         //Load file into the program
-        Scanner inFile = connectDataSet("src/CSV/map.csv");
+        Scanner inFile = connectDataSet("src/CSV/SimpleMap.csv");
         //This breaks down the file into its parts by commas
         buildUnorderedList(inFile);
         //
